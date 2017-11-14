@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body{
+  margin: 0;
+}
+#app{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right,#ee0979, #ff6a00);
+}
+#key-code{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 150px;
+  line-height: 500px;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+.btn{
+  width: 250px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 25px;
+  margin: 0 auto;
+  position: absolute;
+  background-color: transparent;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  transition: all 0.3s ease;
+  opacity: 0.5;
+  color: white;
+}
+.btn:hover{
+  color: #FF5722;
+  cursor: pointer;
+  padding: 15px;
+  background-color: white;
+  opacity: 1;
+  /*font-size: 30px;*/
+}
+#key-text{
+  position: absolute;
+  color: white;
+  font-size: 70px;
+  font-weight: 100;
+  top: 80%;
+  left: 50%;
+  margin: 50px auto;
+  transform: translate(-50%, -50%);
+}
