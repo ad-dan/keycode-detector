@@ -39,10 +39,10 @@ class App extends React.Component{
   }
   render() {
 
-    return (
+        return (
       <div id="app" onKeyPress={(e)=>this.handlePress(e)}>
         <KeyCodeDisplay text={this.state.keyCodepressed}/>
-        <Button />
+        <Button />  
         <KeyDisplay text={this.state.keypressed} />
       </div>
     )
